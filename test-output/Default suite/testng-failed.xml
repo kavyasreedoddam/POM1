@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.MyTest">
+      <class name="tests.RegisterTestGrid_1">
         <methods>
-          <include name="testWithData"/>
+          <include name="testRegistration"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- tests.MyTest -->
+      </class> <!-- tests.RegisterTestGrid_1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
